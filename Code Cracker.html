@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz.ai</title>
+    <link rel="stylesheet" href="Style/Style.css">
+    <link rel="stylesheet" href="Font/Font.css">
+</head>
+<body>
+    <div class="logo-box">Quiz.ai</div>
+    <!-- start Quiz button -->
+    <p class="center">
+        🤔 Looking for a way to test your smarts?<br>
+        🚀 Quiz.ai will give your brain a jump-start!<br>
+        🧐 With questions that are fun and tricky,<br>
+        🤩 It's the app that will make you feel quite picky!<br>
+        🎯 So come on in and take a shot,<br>
+        🧠 Quiz.ai will give your knowledge a lot! 🤓</p>
+    <div class="start_btn">
+        <button>Start Quiz</button>
+    </div>
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Rules for this Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. ⏰ The Quiz will put your time-management skills to the test with a nail-biting 15-second time limit per question.</div>
+            <div class="info">2. Buckle up, coding cowboys and cowgirls! 🤠 Our quiz tests your skills in HTML, CSS, Java, C, C++, JavaScript, and Python. Don't worry if you're not a coding ninja yet - we're all about having fun here. Just be careful not to spill your coffee on the keyboard, ☕💻 or you might find yourself debugging in the bathroom.</div>
+            <div class="info">3. 🤔 Once you choose an answer, there's no turning back! So choose wisely, and don't let the pressure get to you.</div>
+            <div class="info">4. ⏳ Time's up means time's up! No cheating by choosing an answer after the buzzer goes off, we're watching you. 👀</div>
+            <div class="info">5. 🚫 Sorry, no escape from the Quiz, even if you're feeling like a quitter. Buckle up and enjoy the ride! 🎢</div>
+            <div class="info">6. 🤓 Show off your smarts and earn some bragging rights by scoring points with every correct answer.</div>
+            <div class="info">7. 🚫📱 Multi-tasking is not allowed during the Quiz, so please stay focused and don't minimize or switch to other tabs. We won't judge if you need to take a bathroom break though. 🚽</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit 🚪</button>
+            <button class="restart">Continue 🚀</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Code Debugging</div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">20</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Here I've inserted question from JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Here I've inserted options from JavaScript -->
+            </div>
+        </section>
+
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!-- Here I've inserted Question Count Number from JavaScript -->
+            </div>
+            <button class="next_btn">Next</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+            <!-- Here I've inserted Score Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+    <div class="header-box">Made with ❤️ by Joel Jolly.</div>
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <script src="Script/Questions.js"></script>
+
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="Script/Script.js"></script>
+</body>
+</html>
+</html>
