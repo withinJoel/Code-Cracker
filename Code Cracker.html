@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Code Cracker | Quiz</title>
+    <meta name="description" content="Test your coding skills with this quiz" />
+    <meta name="keywords" content="quiz, code, coding, programming, questions, answers" />
+    <meta name="author" content="Joel Jolly" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="Style/base.css" />
+    <link rel="stylesheet" href="Font/Font.css">
+    <script>
+        // set timeout for 10 seconds
+        setTimeout(function() {
+          // load the actual web page
+          window.location.href = "Pages/Index.html";
+        }, 5000);
+    </script>  
+    <script>
+        document.documentElement.className = "js";
+        var supportsCssVars = function () {
+            var e, t = document.createElement("style");
+            return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e;
+        };
+        supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+    </script>
+</head>
+<body class="demo-2">
+<main>
+    <div class="content content--canvas">
+	</div>
+	<div class="title"> Code Cracker </div>
+<script src="Script/noise.min.js"></script>
+<script src="Script/util.js"></script>
+<script src="Script/swirl.js"></script>
+</body>
+</html>

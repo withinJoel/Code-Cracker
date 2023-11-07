@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Code Cracker | Quiz</title>
+    <meta name="description" content="Test your coding skills with this quiz" />
+    <meta name="keywords" content="quiz, code, coding, programming, questions, answers" />
+    <meta name="author" content="Joel Jolly" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../Style/base.css" />
+    <link rel="stylesheet" href="../Font/Font.css">
+    <script>
+        document.documentElement.className = "js";
+        var supportsCssVars = function () {
+            var e, t = document.createElement("style");
+            return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e;
+        };
+        supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+    </script>
+</head>
+<body class="demo-2">
+<main>
+    <div class="content content--canvas">
+	</div>
+	<div class="title"> Code Cracker </div>
+    <!-- start Quiz button -->
+    <div class="start_btn">
+        <button>Start Quiz</button>
+    </div>
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Rules for this Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. This quiz contains 100 questions.</div>
+            <div class="info">2. You will be given 20 second for each question.</div>
+            <div class="info">3. If you open another tab, The quiz will get refreshed.</div>
+            <div class="info">Good Luck!</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit 🚪</button>
+            <button class="restart">Continue 🚀</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Code Debugging</div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">20</div>
+            </div>
+        </header>
+        <section>
+            <div class="que_text">...</div>
+            <div class="option_list">...</div>
+        </section>
+
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">...</div>
+            <button class="next_btn">Next</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">...</div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+    <div class="header-box">Made with ❤️ by Joel Jolly.</div>
+</div>
+</main>
+<!-- Inside this JavaScript file I've inserted Questions and Options only -->
+<script src="../Script/Questions.js"></script>
+
+<!-- Inside this JavaScript file I've coded all Quiz Codes -->
+<script src="../Script/Script.js"></script>
+<script src="../Script/noise.min.js"></script>
+<script src="../Script/util.js"></script>
+<script src="../Script/swirl.js"></script>
+</body>
+</html>
