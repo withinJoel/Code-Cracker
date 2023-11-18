@@ -2209,7 +2209,7 @@ function shuffleArray(array) {
 
 //////////To shuffle the questions
 let quizarray = [];
-for (let i = 0; i < 1; i++) {
+for (let i = 0; i < 100; i++) {
 	let randomQuestion = questions[Math.floor(Math.random() * questions.length)];
 	let shuffledOptions = shuffleArray(randomQuestion.options.slice());
 	randomQuestion.options = shuffledOptions;
