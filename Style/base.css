@@ -75,6 +75,7 @@ body {
     color:white;
     background-color: black;
     font-weight: bolder;
+    border-radius: 30px;
 }
 
 .next_btn:hover {
@@ -97,9 +98,9 @@ body {
     font-weight: bolder;
     color: black;
     padding: 15px 30px;
+    border-radius: 30px;
     outline: none;
     border: none;
-    border-radius: 5px;
     background: white;
     cursor: pointer;
     position: relative;
@@ -132,7 +133,7 @@ body {
 .info_box{
     width: 540px;
     background: white;
-    border-radius: 5px;
+    border-radius: 30px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
     pointer-events: none;
@@ -147,7 +148,7 @@ body {
     display: flex;
     align-items: center;
     padding: 0 30px;
-    border-radius: 5px 5px 0 0;
+    border-radius: 30px 30px 0 0;
     font-size: 20px;
     font-weight: 600;
 }
@@ -193,7 +194,7 @@ body {
 .quiz_box{
     width: 1200px;
     background: #fff;
-    border-radius: 5px;
+    border-radius: 30px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
     pointer-events: none;
@@ -206,7 +207,7 @@ body {
     height: 70px;
     padding: 0 30px;
     background: #fff;
-    border-radius: 5px 5px 0 0;
+    border-radius: 30px 30px 30px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
