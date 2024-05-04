@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/withinJoel/Code-Cracker/assets/128782382/06d7f45c-42e5-43ee-bc04-db4611d8da1c" alt="Evelina" width="200" height="200">
+  <img src="https://github.com/withinJoel/Code-Cracker/assets/128782382/06d7f45c-42e5-43ee-bc04-db4611d8da1c" alt="Code Cracker" width="200" height="200">
 </p>
 
 # Code-Cracker
