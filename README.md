@@ -13,6 +13,9 @@ Made with 💖 by Joel Jolly.
 * Modern UI.
 * A very clean experience.
 * No Ads.
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=withinjoel/code-cracker&type=Timeline)](https://star-history.com/#withinjoel/code-cracker&Timeline)
 
 # Website
 https://codecracker.pages.dev/
